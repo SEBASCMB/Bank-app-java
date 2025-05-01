@@ -1,18 +1,88 @@
-## Getting Started
+# Proyecto Final - Aplicación Bancaria
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Bienvenido al **Proyecto Final**, una aplicación bancaria interactiva desarrollada en Java. Este proyecto permite a los usuarios realizar operaciones bancarias como depósitos, retiros y consultas de saldo de manera sencilla y amigable.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## ✨ Características
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- **Interfaz de consola moderna**: Menús claros y mensajes interactivos.
+- **Depósitos y retiros**: Realiza transacciones con montos en pesos colombianos.
+- **Consulta de saldo**: Visualiza el saldo actual de tu cuenta bancaria.
+- **Validaciones robustas**: Manejo de errores para entradas inválidas y fondos insuficientes.
+- **Soporte para formato colombiano**: Los montos se muestran con separadores de miles y sin decimales.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 📂 Estructura del Proyecto
 
-## Dependency Management
+El proyecto está organizado de la siguiente manera:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```plaintext
+src/
+└── ProyectoFinal/
+  ├── BankAccount.java  # Lógica de la cuenta bancaria
+  ├── BankApp.java      # Interfaz de usuario en consola
+  └── Main.java         # Punto de entrada del programa
+```
+
+---
+
+## 🛠️ Requisitos Previos
+
+- **Java 8 o superior**: Asegúrate de tener instalado el JDK.
+- **IDE recomendado**: Visual Studio Code o cualquier IDE compatible con Java.
+
+---
+
+## 🚀 Cómo Ejecutar
+
+1. Clona este repositorio:
+
+   ```bash
+   git clone https://github.com/SEBASCMB/Bank-app-java
+   cd Bank-app-java/src/ProyectoFinal
+   ```
+
+2. Compila los archivos:
+
+   ```bash
+   javac *.java
+   ```
+
+3. Ejecuta el programa:
+
+   ```bash
+   java Main
+   ```
+
+---
+
+## 🧑‍💻 Uso de la Aplicación
+
+1. Al iniciar, se mostrará un menú con las siguientes opciones:
+
+   ```plaintext
+   =====================================
+      🌟 Welcome to the Bank App 🌟
+   =====================================
+   1️⃣  Deposit
+   2️⃣  Withdraw
+   3️⃣  Display Balance
+   4️⃣  Exit
+   =====================================
+   👉 Choose an option:
+   ```
+
+2. Selecciona una opción ingresando el número correspondiente:
+
+   - **1**: Ingresa un monto para depositar.
+   - **2**: Ingresa un monto para retirar.
+   - **3**: Consulta el saldo actual.
+   - **4**: Sal de la aplicación.
+
+3. Sigue las instrucciones en pantalla para completar las operaciones.
+
+---
+
+¡Gracias por usar la aplicación bancaria! 😊
