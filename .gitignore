@@ -1,0 +1,19 @@
+# Ignorar archivos de compilación
+bin/
+*.class
+
+# Ignorar configuraciones de IDE
+.vscode/
+*.iml
+.idea/
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar librerías externas
+lib/
+
+# Ignorar todo excepto ProyectoFinal
+src/*
+!src/ProyectoFinal/
